@@ -15,6 +15,24 @@ Prettier, but with opinionated changes.
 | [singleQuote](https://prettier.io/docs/en/options.html#quotes) | `false` | `true` | Single quotes are more popular in JavaScript than double quotes and are less noisy.
 | [trailingComma](https://prettier.io/docs/en/options.html#trailing-commas)    |  `false`   | `all`  | Trailing commas allow for quicker additions to lists from cold starts.
 
+## Usage
+
+**Install:**
+```
+yarn add --dev @auroradigital/prettier-config
+```
+or
+```
+npm install --save-dev @auroradigital/prettier-config
+```
+
+**Edit `package.json`**:
+```
+{
+  "prettier": "@auroradigital/prettier-config"
+}
+```
+
 
 ## Prettier + ESLint
 

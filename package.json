@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A shareable Prettier config created with readability and productivity in mind.",
   "repository": "git@github.com:AuroraDigital/prettier-config.git",
-  "author": "AURORA Digital <hello@auroradigit.al>",
+  "author": "AURORA Digital <hello@auroradigit.al> (auroradigit.al)",
   "keywords": [
     "prettier",
     "lint",

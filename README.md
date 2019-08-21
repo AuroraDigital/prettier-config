@@ -18,4 +18,4 @@ Prettier, but with opinionated changes.
 
 ## Prettier + ESLint
 
-This rules of this Prettier config is designed to play nice with our shareable ESLint config: [eslint-config-aurora](https://github.com/AuroraDigital/eslint-config-aurora).
+This Prettier config is designed to work alongside our shareable ESLint config: [eslint-config-aurora](https://github.com/AuroraDigital/eslint-config-aurora).

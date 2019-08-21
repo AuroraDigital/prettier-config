@@ -29,6 +29,7 @@ npm install --save-dev @auroradigital/prettier-config
 **Edit `package.json`**:
 ```
 {
+  // ...
   "prettier": "@auroradigital/prettier-config"
 }
 ```

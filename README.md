@@ -1,4 +1,5 @@
 
+
 # @auroradigital/prettier-config
 
   [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -26,14 +27,20 @@ or
 npm install --save-dev @auroradigital/prettier-config
 ```
 
-**Edit `package.json`**:
+
+**Create or edit `.prettierrc.json`**:
 ```
-{
-  // ...
-  "prettier": "@auroradigital/prettier-config"
-}
+"@auroradigital/prettier-config"
 ```
 
+If you wish to extend the configuration use a `.prettierrc.js` file instead:
+ 
+```
+module.exports = {
+  ...require("@auroradigital/prettier-config"),
+  yourChangedRule: false
+}
+```
 
 ## Prettier + ESLint
 

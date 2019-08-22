@@ -33,7 +33,7 @@ npm install --save-dev @auroradigital/prettier-config
 "@auroradigital/prettier-config"
 ```
 
-If you wish to extend the configuration use a `.prettierrc.js` file instead:
+**If you wish to extend the configuration use a `.prettierrc.js` file instead:**
  
 ```
 module.exports = {
